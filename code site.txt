@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Cailloux de Paul – Boutique Officielle</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .logo {
+            max-width: 200px;
+            border-radius: 50%;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .product {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .product img {
+            max-width: 150px;
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+        .price {
+            color: #4CAF50;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://mistralaiblackforestprod.blob.core.windows.net/images/blackforest/ddf0/3b45/-3b9/f-416b-acfc-0eb1360e65cf/image.jpg?se=2026-01-17T11%3A32%3A22Z&sp=r&sv=2025-01-05&sr=b&sig=/LahMBt14lobMI29fmcWP1nSoZtcvEkKva6GBH3zkuU%3D" alt="Logo Les Cailloux de Paul" class="logo">
+        <h1>Les Cailloux de Paul</h1>
+        <p>Des cailloux uniques, pour des gens uniques !</p>
+    </header>
+    <div class="container">
+        <h2>Nos Produits Phares</h2>
+
+        <div class="product">
+            <img src="https://i.pinimg.com/originals/d5/e4/69/d5e46963a61282122e5d04dd9830a770.jpg" alt="Caillou Sourire">
+            <div>
+                <h3>Caillou Sourire™</h3>
+                <p>Ce caillou a toujours l’air content. Parfait pour égayer votre bureau ou votre jardin. Garanti 100% naturel et sans pile.</p>
+                <p class="price">12,99 €</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="https://i.pinimg.com/originals/b8/22/97/b822973a10709e222e4f71fdf515f07d.jpg" alt="Caillou Réfléchi">
+            <div>
+                <h3>Caillou Réfléchi™</h3>
+                <p>Ce caillou semble toujours en pleine réflexion. Idéal pour les moments de doute existentiel ou pour décorer votre étagère.</p>
+                <p class="price">15,99 €</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="https://i.pinimg.com/originals/95/1b/b5/951bb5a4e51d54d3bc16425d2f694a46.jpg" alt="Caillou Multicolore">
+            <div>
+                <h3>Caillou Multicolore™</h3>
+                <p>Un caillou qui brille de mille couleurs (enfin, surtout du gris, mais on a essayé). Parfait pour ajouter une touche de fantaisie à votre vie.</p>
+                <p class="price">19,99 €</p>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="https://i.pinimg.com/originals/7d/87/d6/7d87d6497dfe727386c70bb8c9e8e554.jpg" alt="Caillou Amoureux">
+            <div>
+                <h3>Caillou Amoureux™</h3>
+                <p>Ce caillou est clairement en train de faire les yeux doux. Offrez-le à votre crush pour un effet garanti (ou pas).</p>
+                <p class="price">24,99 €</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>© 2026 Les Cailloux de Paul – Livraison sous 2 à 5 ans (on est pas pressés).</p>
+        <p>Contact : paul@lescaillouxdepaul.fr (ne répond pas).</p>
+    </footer>
+</body>
+</html>
